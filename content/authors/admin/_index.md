@@ -6,8 +6,7 @@ organizations: []
 superuser: true
 authors:
   - admin
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: "My passion is data visualization "
 interests:
   - ""
 social:
