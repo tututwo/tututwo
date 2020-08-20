@@ -1,0 +1,384 @@
+$font-main: Inter;
+$font-bold: 800;
+$dark-grey: #343434;
+$light-grey: #E3E3E5;
+$sta-primary-dark: black;
+$sta-primary-light: grey;
+
+/* icons */
+#profile {
+  .network-icon {
+    li {
+      a { color: white !important;}
+    }
+  }
+}
+
+/* background color for body */
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* top level font and styling*/
+h1 {
+  font-family: $font-main;
+  font-weight: $font-bold;
+  color: $sta-primary-dark;
+}
+
+.section-heading p {
+  color: $dark-grey;
+}
+
+/* WOW! */
+@mixin bkg-img-transition( $bkg1, $bkg2, $transTime:1s ){  
+  position: relative;  
+  z-index: 100; 
+  &:before, &:after {
+    background-size: cover;  
+    content: '';    
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;  
+    width: 100%;
+    background-color: black;
+    padding: 3em 0;
+    background-repeat: no-repeat;
+    background-position: center;
+  	background-size: cover;
+    transition: opacity $transTime;
+  }
+  &:before {    
+    z-index: -101;
+    background-image: url("#{$bkg1}");
+  }
+  &:after {    
+    z-index: -100;
+    opacity: 0.5;
+    background-image: url("#{bkg1}"), url("#{$bkg2}"); 
+  }
+  &:hover {
+     &:after{
+       opacity: 0; 
+     }
+  }  
+}
+
+#about {  
+  @include bkg-img-transition("/img/headers/me.png","/img/headers/datathon.jpg");
+	height: calc(-70px + 100vh);
+	min-height: 705px;
+}
+
+/* intro animation */
+
+#profile {
+
+  text-align: left;
+  color: white !important;
+  
+  h1 {
+    font-size: 4rem;
+    color: white !important;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  .black-bg-text {
+    background-color: black;
+    padding: 5px;
+  }
+  
+  .avatar-circle {
+  opacity: 0;
+  position: relative;
+  right: -1000px;
+  -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  animation: slide-left 2s forwards cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  }
+
+  .portrait-title {
+    opacity: 0;
+    position: relative;
+    left: -1000px;
+    -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    
+    h2 {
+      color: white !important;
+    }
+  }
+  
+  @-webkit-keyframes slide-right {
+      100% { left: 0; opacity: 1}
+  }
+  
+  @keyframes slide-right {
+      100% { left: 0; opacity: 1; }
+  }
+  
+  @-webkit-keyframes slide-left {
+      100% { right: 0; opacity: 1; }
+  }
+  
+  @keyframes slide-left {
+      100% { right: 0; opacity: 1; }
+  }
+  
+  .network-icon {
+    
+    margin-top: 15px;
+    padding: 5px;
+    
+    .fa-envelope {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s;
+    }
+    
+    .fa-twitter {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.5s;
+              animation-delay: 1.5s;
+    }
+    
+    .fa-github {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2s;
+              animation-delay: 2s;
+    }
+    
+    @-webkit-keyframes grow {
+        100% { opacity: 1; }
+    }
+    
+    @keyframes grow {
+        100% { opacity: 1; }
+    } 
+  }
+}
+
+/* buttons */
+.btn {
+  border-radius: 5px;
+  margin: 2.5px;
+  padding: .3rem;
+  line-height: 1;
+  -webkit-box-shadow: 3px 3px 0 0 $dark-grey;
+          box-shadow: 3px 3px 0 0 $dark-grey;
+  color: $dark-grey;
+  border-color: $sta-primary-dark;
+  background-color: white !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  
+    &:focus {
+    -webkit-box-shadow: 3px 3px 0 0 white !important;
+            box-shadow: 3px 3px 0 0 white !important;
+    color: $sta-primary-dark;
+    }
+  
+  &:hover {
+    background-color: $light-grey !important;
+    color: $sta-primary-dark;
+    }
+}
+
+.btn-toolbar .btn.active  {
+  background-color: $sta-primary-dark !important;
+  -webkit-box-shadow: 3px 3px 0 0 white !important;
+          box-shadow: 3px 3px 0 0 white !important;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: $sta-primary-dark;
+  border-color: $sta-primary-dark;
+  background-color: $dark-grey !important;
+}
+
+/* toolbar */
+.navbar .navbar-nav .nav-link.active {
+  color: $sta-primary-dark !important;
+}
+
+/* link styling */
+.card-text p a, .powered-by a {
+  text-decoration: none;
+   line-height: 1;
+   position: relative;
+   z-index: 0;
+   display: inline-block;
+   padding: 5px 5px;
+   overflow: hidden;
+   color: black;
+   vertical-align: bottom;
+   -webkit-transition: color .3s ease-out;
+   -o-transition: color .3s ease-out;
+   transition: color .3s ease-out;
+}
+
+.card-text p a::before, .powered-by a::before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   -webkit-transform: translateY(calc(100% - 2px));
+       -ms-transform: translateY(calc(100% - 2px));
+           transform: translateY(calc(100% - 2px));
+   width: 100%;
+   height: 100%;
+   border-radius: 2.5px;
+   background-image: -webkit-gradient(linear, left top, right top, from(rgba(2,0,36,1)), color-stop(35%, rgba(52,52,52,1)), to(rgba(136,136,136,1)));
+   background-image: -o-linear-gradient(left, rgba(2,0,36,1) 0%, rgba(52,52,52,1) 35%, rgba(136,136,136,1) 100%);
+   background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,52,1) 35%, rgba(136,136,136,1) 100%);
+   -webkit-transition: -webkit-transform .25s ease-out;
+   transition: -webkit-transform .25s ease-out;
+   -o-transition: transform .25s ease-out;
+   transition: transform .25s ease-out;
+   transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+
+.card-text p a:hover, .powered-by a:hover { 
+   color: #fff; 
+}
+.card-text p a:hover::before, .powered-by a:hover::before {
+   -webkit-transform: translateY(0);
+       -ms-transform: translateY(0);
+           transform: translateY(0);
+   -webkit-transition: -webkit-transform .25s ease-out;
+   transition: -webkit-transform .25s ease-out;
+   -o-transition: transform .25s ease-out;
+   transition: transform .25s ease-out;
+   transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+
+/* blog formatting */
+.hljs {
+  background: $light-grey !important;
+}
+
+.article-style {
+  a {
+    color: red;
+    border-bottom: 1px dotted grey;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid red;
+    text-decoration: none;
+  }
+}
+
+
+/* footer */
+.powered-by {
+  font-size: .9em;
+}
+
+footer {
+  margin: auto !important;
+}
+
+footer p {
+  margin-bottom: 0 !important;
+}
+
+/* awards and experience cards */
+.card.experience.course.card-title {
+  font-size: 1rem;
+}
+
+.card-subtitle.my-0.article-metadata,
+.card .text-muted.exp-meta {
+  font-size: .8rem;
+  letter-spacing: 0 !important;
+}
+
+.course .card-body .card-text,
+.experience .card-body .card-text {
+  padding: .8rem 0.5rem .8rem 0 !important;
+}
+
+/* scrolling animation */
+.mouse {
+  width: 150px;
+  
+}
+
+.mouse-icon {
+   width: 25px;
+   height: 33px;
+   border: 3px solid white;
+   border-radius: 15px;
+   cursor: pointer;
+   display: inline-block;
+   text-align: center;
+}
+
+.mouse-wheel {
+  height: 6px;
+  margin: 3px auto 0;
+  display: block;
+  width: 3px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+ -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+}
+
+@-webkit-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 10px;
+	    opacity: 0;
+	}
+}
+@-moz-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 10px;
+	    opacity: 0;
+	}
+}
+@keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 10px;
+	    opacity: 0;
+	}
+}

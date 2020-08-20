@@ -1,7 +1,7 @@
 ---
 title: Yukun Tu(Gordon)
 role: ""
-avatar_filename: img_1021.jpeg
+avatar_filename: avatar.jpeg
 organizations: []
 superuser: true
 authors:
@@ -19,9 +19,8 @@ social:
   - link: https://medium.com/@easyshu.viz
     icon_pack: fab
     icon: medium
-education:
-  courses: []
-email: ""
+    
+email: "tugordon@outlook.com"
 user_groups:
   - Researchers
   - Visitors
