@@ -66,7 +66,7 @@ h1 {
 }
 
 #about {  
-  @include bkg-img-transition("/img/headers/me.png","/img/headers/datathon.jpg");
+  @include bkg-img-transition("/img/headers/me.png","/img/headers/she.jpg");
 	height: calc(-70px + 100vh);
 	min-height: 705px;
 }
@@ -101,7 +101,7 @@ h1 {
   }
 
   .portrait-title {
-    opacity: 0;
+    opacity: 1;
     position: relative;
     left: -1000px;
     -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
@@ -128,12 +128,13 @@ h1 {
       100% { right: 0; opacity: 1; }
   }
   
+//! icons below the short intro
   .network-icon {
     
     margin-top: 15px;
     padding: 5px;
     
-    .fa-envelope {
+    .fa-medium {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -315,7 +316,8 @@ footer p {
   padding: .8rem 0.5rem .8rem 0 !important;
 }
 
-/* scrolling animation */
+//! scrolling animation of the mouse //
+
 .mouse {
   width: 150px;
   
