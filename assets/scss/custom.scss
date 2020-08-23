@@ -66,7 +66,7 @@ h1 {
 }
 
 #about {  
-  @include bkg-img-transition("/img/headers/me.jpeg","/img/headers/she.jpeg");
+  @include bkg-img-transition("/img/headers/me.png","/img/headers/me_2.png");
 	height: calc(-70px + 100vh);
 	min-height: 705px;
 }
