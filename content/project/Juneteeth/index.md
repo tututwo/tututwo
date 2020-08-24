@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 summary: Using R to recreate publication-quality visuals.
 tags:
-- featured
-- featured R
+- All
+- R
 title: "TidyTuesday US Beer Production and people's drinking habit"
 ---

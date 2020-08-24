@@ -2,8 +2,8 @@
 title: "Juneteenth 2020: Taking a look at slavery leading up to its abolishment"
 summary: "Juneteenth is a commemoration of the emancipation of 4 million enslaved African Americans & a celebration of freedom. It's an important moment in American history."
 authors: []
-tags: [data visualizations, ggplot2, rstats, tidy tuesday]
-categories: [data visualizations, rstats, tidy tuesday]
+tags: [Data visualizations, R, TidyTuesday]
+categories: [dData visualizations, R, TidyTuesday]
 date: "2020-06-19"
 
 image:

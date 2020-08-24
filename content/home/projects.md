@@ -23,15 +23,15 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "All"
-    tag = "featured"
+    tag = "All"
   
   [[content.filter_button]]
     name = "R"
-    tag = "featured R"
+    tag = "R"
 
   [[content.filter_button]]
     name = "D3.js"
-    tag = "featured D3"
+    tag = "D3"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

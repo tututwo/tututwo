@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 summary: Using transcript data to analyze whose winning the Office popularity content.
 tags:
-- featured
-- featured D3
+- All
+- D3
 title:  Who is the Most Popular Character in The Office? 
 ---
