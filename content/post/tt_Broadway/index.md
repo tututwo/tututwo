@@ -1,16 +1,20 @@
 ---
-date: “2020-07-10T00:00:00Z"
-external_link: /post/tt_Broadway/
-image:
-  caption: 
-  focal_point: Smart
-summary: Using R to recreate publication-quality visuals.
+title: 'What are the “best” hip hop songs?'
+author: Yukun Tu
+date: '2020-04-21'
+reading_time: true
+slug: tidy-tuesday-rap-songs
+categories: [Data Visualizations, TidyTuesday]
 tags:
-- All
-- R
-title: "How much money did award-winning shows earn before the award date?"
+  - R
+  - All
+summary: '[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)’s Week 16 dataset from BBC Music'
+links:
+ - name: code
+   url: https://github.com/tututwo/TidyTuesday
+   icon_pack: fab
+   icon: github
 ---
-
 # Define Goals
 When I saw going through TidyTuesday's repo, Broadway Musical data totally drew my attention. I think I can learn some interesting things from creating a data visualizaiton about musicals. 
 
@@ -43,7 +47,8 @@ New idea: How are award-winning muscials doing throughout the years in different
 I played a little bit with those functions, then decide on scatter plot as the backbone.
 
 Then I quickly prototyped my vis
-![sketch](sketch.png)
+{{< figure src="sketch.png" title="" lightbox="true" >}}
+<!-- ![sketch](sketch.png) -->
 
 I thought it would be so artistic to have awarded show represented by stars, but...
 
@@ -60,13 +65,13 @@ I rethought my design and the headline of my graph again?
 # Re-design & Re-headline
 How about just showing the award-winning shows?
 
-What is interesting about award-winning show?
+What is interesting about award-winning shows?
 
-Answer: they won awards.
+**Answer: they won awards.**
 
-I quickly got intrigued by the idea of 
+I quickly got intrigued by the idea that how much money each award-winning muscial earned and how long it took before the award.
 
-Another ggplot2 master's work inspired me. Georgios Karamanis made plot
+Another ggplot2 master's work inspired me. Georgios Karamanis made plot by placing triangular bars on top of each European country on a map.
 
 Triangular "bar" charts plus stars on the tips to highlight the stars. Red and glowing yellow represents stage curtain and trophy, and annotations on the top of every star showing.
 ![sketch2](sketch2.png)
