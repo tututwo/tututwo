@@ -6,7 +6,7 @@ authors:
 categories: ["R". "All"]
 image:
   preview_only: true
-tags: ["R", "visualization", "replication", "TidyTuesday"]
+tags: ["R", "All"]
 summary: "Replicating a Bloomberg Graphics scatterplot using R Shiny."
 ---
 
