@@ -1,14 +1,15 @@
 ---
-title: 'TidyTuesday: Powerlifting'
-date: "2019-10-08"
+title: "Tidy Tuesday: Replication"
+date: "2019-12-10"
 authors: 
-  - admin
+ - admin
 categories: ["R"]
 image:
   preview_only: true
-tags: ["R", "visualization", "animation", "gganimate", "Tidy Tuesday"]
-summary: "Analyzing sex differences in top lifts at international powerlifting competitions."
+tags: ["r", "visualization", "replication", "Tidy Tuesday"]
+summary: "Replicating a Bloomberg Graphics scatterplot using R Shiny."
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, fig.showtext = T, fig.retina = 1)
@@ -201,7 +202,4 @@ df_volley_geo <-
 
 ***
 
-```{r session}
-sessionInfo()
-```
 

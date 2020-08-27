@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 summary: Using R to recreate publication-quality visuals.
 tags:
-- All
 - R
-title: "Who win the most?"
+- All
+title: "Replicating Plots in R (Tidy Tuesday)"
 ---
