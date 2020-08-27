@@ -8,6 +8,10 @@ output:
     highlight: kate
 editor_options: 
   chunk_output_type: console
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
 ---
 
 ```{r setup, include=FALSE}
