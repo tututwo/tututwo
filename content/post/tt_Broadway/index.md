@@ -1,14 +1,17 @@
 ---
 title: 'What are the “best” hip hop songs?'
 author: Yukun Tu
-date: '2020-04-21'
+date: '2020-08-19'
 reading_time: true
-slug: tidy-tuesday-rap-songs
 categories: [Data Visualizations, TidyTuesday]
 tags:
   - R
   - All
-summary: '[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)’s Week 16 dataset from BBC Music'
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+summary: '[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)’ Broadway'
 links:
  - name: code
    url: https://github.com/tututwo/TidyTuesday
