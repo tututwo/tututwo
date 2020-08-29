@@ -4,7 +4,7 @@ external_link: /post/tt_Broadway/
 image:
   caption:
   focal_point: Smart
-summary: Using R to recreate publication-quality visuals.
+summary: Exploring the net gross and days before the awarding date of each musical that debutted after 1986
 tags:
 - All
 - R

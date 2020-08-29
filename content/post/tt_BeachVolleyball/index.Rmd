@@ -1,13 +1,13 @@
 ---
-title: "Tidy Tuesday: Replication"
+title: "Replicating Plots in R and Adobe Illustrator"
 date: "2019-12-10"
 authors: 
  - admin
-categories: ["R"]
+categories: ["TidyTuesday"]
 image:
   preview_only: true
-tags: ["r", "visualization", "replication", "Tidy Tuesday"]
-summary: "Replicating a Bloomberg Graphics scatterplot using R Shiny."
+tags: ["R"]
+summary: "Using R to recreate publication-quality visuals"
 ---
 
 

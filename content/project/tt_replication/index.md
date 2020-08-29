@@ -4,9 +4,9 @@ external_link: /post/tt_BeachVolleyball/
 image:
   caption: 
   focal_point: Smart
-summary: Using R to recreate publication-quality visuals.
+summary: Using R to recreate publication-quality visuals
 tags:
 - R
 - All
-title: "Replicating Plots in R (Tidy Tuesday)"
+title: "Replicating Plots in R and Adobe Illustrator"
 ---

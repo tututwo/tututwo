@@ -1,9 +1,9 @@
 ---
-title: "Juneteenth 2020: Taking a look at slavery leading up to its abolishment"
-summary: "Juneteenth is a commemoration of the emancipation of 4 million enslaved African Americans & a celebration of freedom. It's an important moment in American history."
+title: "How dry would each state be if Americans only consumed local state-produced beer?"
+summary: "Geofacetted stack bar chart that compares the beer production and beer consumption in each state"
 authors: []
-tags: [Data visualizations, R, TidyTuesday]
-categories: [dData visualizations, R, TidyTuesday]
+tags: [R]
+categories: [TidyTuesday]
 date: "2020-06-19"
 
 image:
@@ -13,15 +13,8 @@ image:
 
 links:
  - name: "code"
-   url: https://github.com/isabellabenabaye/tidy-tuesday/tree/master/2020/25_american_slavery_juneteenth
+   url: https://github.com/tututwo/TidyTuesday
    icon_pack: fab
    icon: github
- - name: "source"
-   url: https://www.census.gov/content/dam/Census/library/working-papers/2002/demo/POP-twps0056.pdf
-   icon_pack: fab
- - name: ""
-   url: https://twitter.com/_isabellamb/status/1276255747253260288?s=20
-   icon_pack: fab
-   icon: twitter
 ---
  

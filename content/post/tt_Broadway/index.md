@@ -1,9 +1,9 @@
 ---
-title: 'What are the “best” hip hop songs?'
+title: 'How were award-winning musicals doing before they got awarded?'
 author: Yukun Tu
 date: '2020-08-19'
 reading_time: true
-categories: [Data Visualizations, TidyTuesday]
+categories: [TidyTuesday]
 tags:
   - R
   - All
@@ -11,7 +11,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: true
-summary: '[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)’ Broadway'
+summary: '[Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) Broadway: Exploring the net gross and days before the awarding date of each musical that debutted after 1986'
 links:
  - name: code
    url: https://github.com/tututwo/TidyTuesday
