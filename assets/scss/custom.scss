@@ -15,9 +15,9 @@ $sta-primary-light: grey;
 }
 
 /* background color for body */
-body {
-  background-color: rgb(255, 255, 255);
-}
+// body {
+//   background-color: rgb(255, 255, 255);
+// }
 
 /* top level font and styling*/
 h1 {
@@ -55,7 +55,7 @@ h1 {
   }
   &:after {    
     z-index: -100;
-    opacity: 0.5;
+    opacity: 0;
     background-image: url("#{bkg1}"), url("#{$bkg2}"); 
   }
   &:hover {

@@ -6,7 +6,7 @@ organizations: []
 superuser: true
 authors:
   - admin
-bio: "My passion is data visualization "
+bio: "A data visualization practioner and enthusiast"
 interests:
   - ""
 social:
