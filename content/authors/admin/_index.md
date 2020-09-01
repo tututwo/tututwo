@@ -1,12 +1,12 @@
 ---
-title: Yukun Tu(Gordon)
 role: ""
 avatar_filename: avatar.jpeg
 organizations: []
 superuser: true
 authors:
   - admin
-bio: "A data visualization practioner and enthusiast"
+title: Yukun Tu(Gordon)
+bio: A data visualization practioner and enthusiast
 interests:
   - ""
 social:
@@ -19,8 +19,10 @@ social:
   - link: https://medium.com/@easyshu.viz
     icon_pack: fab
     icon: medium
-    
-email: "tugordon@outlook.com"
+  - link: https://www.zhihu.com/people/shui-yu-59
+    icon_pack: fab
+    icon: Zhihu
+email: tugordon@outlook.com
 user_groups:
   - Researchers
   - Visitors
