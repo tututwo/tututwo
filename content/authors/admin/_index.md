@@ -1,12 +1,12 @@
 ---
-title: Yukun Tu(Gordon)
 role: ""
 avatar_filename: avatar.jpeg
 organizations: []
 superuser: true
 authors:
   - admin
-bio: "A data visualization practioner and enthusiast"
+title: Yukun Tu(Gordon)
+bio: A data visualization practioner and enthusiast
 interests:
   - ""
 social:
