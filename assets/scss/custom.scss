@@ -157,6 +157,13 @@ h1 {
         -webkit-animation-delay: 2s;
                 animation-delay: 2s;
       }
+    .fa-zhihu {
+        opacity: 0;
+        -webkit-animation: grow 2s ease forwards;
+                animation: grow 2s ease forwards;
+        -webkit-animation-delay: 2.5s;
+                animation-delay: 2.5s;
+      }
     
     @-webkit-keyframes grow {
         100% { opacity: 1; }

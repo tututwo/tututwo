@@ -19,7 +19,10 @@ social:
   - link: https://medium.com/@easyshu.viz
     icon_pack: fab
     icon: medium
-    
+  - link: https://www.zhihu.com/people/shui-yu-59
+    icon_pack: fab
+    icon: zhihu
+
 email: "tugordon@outlook.com"
 user_groups:
   - Researchers
