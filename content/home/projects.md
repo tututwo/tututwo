@@ -32,6 +32,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "D3.js"
     tag = "D3"
+    
+  [[content.filter_button]]
+    name = "Replica"
+    tag = "Replica"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

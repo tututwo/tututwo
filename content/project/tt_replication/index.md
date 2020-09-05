@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 summary: Using R to recreate publication-quality visuals
 tags:
-- R
+- Replica
 - All
 title: "Replicating Plots in R and Adobe Illustrator"
 ---

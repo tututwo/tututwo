@@ -6,6 +6,7 @@ image:
   focal_point: Smart
 summary: Using d3 to recreate production level data viz
 tags:
-- Replicate
+- Replica
+- All
 title: "Replicating EU Electricity - Washington Post"
 ---
