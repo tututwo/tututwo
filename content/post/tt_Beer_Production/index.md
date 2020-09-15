@@ -1,9 +1,9 @@
 ---
 title: "How dry would each state be if Americans only consumed local state-produced beer?"
 summary: "Geofacetted stack bar chart that compares the beer production and beer consumption in each state"
-authors: []
+
 tags: [R]
-categories: [TidyTuesday]
+
 date: "2020-06-19"
 
 image:
@@ -18,3 +18,4 @@ links:
    icon: github
 ---
  
+![featured](featured.png)
