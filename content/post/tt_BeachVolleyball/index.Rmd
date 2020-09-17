@@ -200,6 +200,6 @@ df_volley_geo <-
 #                       format = "png", dpi = 300)
 ```
 
-***
 
+![featured](featured.png)
 
