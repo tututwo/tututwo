@@ -4,9 +4,9 @@ date: “2020-12-10T00:00:00Z"
 image:
   caption: 
   focal_point: Smart
-summary: 
+summary: Most buildings in Manhattan were built before 1960s
 tags:
 - QGIS
 - All
-title: "China's elevations"
+title: "Manhattan Buildings' Ages"
 ---

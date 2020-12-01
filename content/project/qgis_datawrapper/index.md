@@ -4,7 +4,7 @@ external_link: https://datawrapper.dwcdn.net/VjDoq/5/
 image:
   caption: 
   focal_point: Smart
-summary: 
+summary: Developing and undeveloped countries remain to be the agricultural countries
 tags:
 - Datawrapper
 - All
