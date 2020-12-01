@@ -37,6 +37,10 @@ subtitle = ""
     name = "Replica"
     tag = "Replica"
 
+  [[content.filter_button]]
+    name = "QGIS"
+    tag = "QGIS"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
