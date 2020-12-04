@@ -407,7 +407,10 @@ footer p {
 /*************************************************
  *  About page
  **************************************************/
-
+ .card-about { // also applies to card on about page
+    animation: zoomIn 1s both;
+    animation-delay: 0.5s;
+  }
  .card-about {
     overflow: hidden;
     text-overflow: ellipsis;
