@@ -21,9 +21,9 @@ body {
 
 /* top level font and styling*/
 h1 {
-  font-family: $font-main;
-  font-weight: $font-bold;
-  color: $sta-primary-dark;
+  font-family: fangsong;
+  font-weight: bolder;
+  color: #f9f9f9;
 }
 
 .section-heading p {
@@ -195,7 +195,7 @@ h1 {
 }
 
 .btn-toolbar .btn.active  {
-  background-color: $sta-primary-dark !important;
+  background-color: #180101 !important;
   -webkit-box-shadow: 3px 3px 0 0 white !important;
           box-shadow: 3px 3px 0 0 white !important;
 }
@@ -394,14 +394,13 @@ footer p {
 }
 
  p a:hover { 
-   background: black;
+   background:#d7d5d5;
    color: white;
  }
 }
 
-.article-container {
-    max-width: 950px;
-    padding: 0 20px 0 20px;
-    margin: 0 auto 0 auto;
-    font-size: 20px;
-  }
+@media (min-width: 1200px)
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1500px;
+}
+
