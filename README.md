@@ -6,7 +6,7 @@
 
 
 
-**I am a chemistry student who choose to follow his passion to be a data visualization designer. I am developing storyteling skills, designing mind and data science techniques.**
+**I am a chemistry graduate who choose to follow his passion to be a data visualization designer. I am developing storyteling skills, designing mind and data science techniques.**
 
 To visualize data I mainly utilize the package [`{ggplot2}`](https://ggplot2.tidyverse.org/) from the [`{tidyverse}` package collection](https://www.tidyverse.org/) including many more that I use on a daily basis for all kinds of data preparation and analysis.
 
