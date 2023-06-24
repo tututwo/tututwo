@@ -6,5 +6,5 @@
 
 
 
-**I am a chemistry graduate who choose to follow his passion to be a data visualization designer. I am developing storyteling skills, designing mind and data science techniques.**
+**I am a data visualization engineer. I use Sveltekit, React, D3, Three and QGIS**
 
